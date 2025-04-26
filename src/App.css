@@ -1,0 +1,36 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+/* App layout */
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* Main layout */
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;  /* Take the rest of the available space */
+  background-color: #f9f9f9;
+}
+
+/* Main content area */
+.content {
+  flex: 1;
+  background-color: #fff;
+  padding: 0px;
+  overflow-y: auto;
+}

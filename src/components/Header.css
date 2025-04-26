@@ -1,0 +1,56 @@
+/* src/components/Header.css */
+.header {
+    background-color: #FFFFFF;
+    padding: 34px 32px 24px 32px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header h1 {
+    color: rgba(0, 0, 0, 0.78);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0;
+    margin: 0;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .icon-24 {
+    width: 20.9px;
+    height: 21.24px;
+  }
+  
+  .icon-24-second {
+    width: 20px;
+    height: 21.5px;
+  }
+  
+  .icon-32 {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .profile-name {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #000000;
+  }
+  
